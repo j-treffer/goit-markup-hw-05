@@ -539,11 +539,11 @@ button {
 
 .footer-form {
   gap: 24px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-form-label {
-  display: flex;
-  align-items: center;
 }
 
 .footer-form-input {
