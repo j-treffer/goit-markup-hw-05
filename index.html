@@ -555,20 +555,22 @@
         <div class="subscribe-footer-form-wrapper">
           <p class="subscribe-form-title">Subscribe</p>
           <form class="footer-form">
-            <input
-              class="footer-form-input"
-              type="email"
-              id="user-email-footer"
-              name="user-email-footer"
-              placeholder="E-mail"
-              required
-            />
-            <button class="footer-form-btn" type="submit">
-              Subscribe
-              <svg class="paper-plane-footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-paper-plane"></use>
-              </svg>
-            </button>
+            <label class="footer-form-label" for="user-email-footer">
+              <input
+                class="footer-form-input"
+                type="email"
+                id="user-email-footer"
+                name="user-email-footer"
+                placeholder="E-mail"
+                required
+              />
+              <button class="footer-form-btn" type="submit">
+                Subscribe
+                <svg class="paper-plane-footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-paper-plane"></use>
+                </svg>
+              </button>
+            </label>
           </form>
         </div>
       </div>
@@ -578,7 +580,7 @@
 
     <!-- #region backdrop -->
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -642,13 +644,13 @@
             </div>
           </div>
           <div class="contact-form-wrapper">
-            <label class="contact-form-field-label" for="user-message"
+            <label class="contact-form-field-label" for="user-comment"
               >Comment</label
             >
             <textarea
               class="contact-form-message"
-              name="user-message"
-              id="user-message"
+              name="user-comment"
+              id="user-comment"
               required
               placeholder="Text input"
             ></textarea>
@@ -656,13 +658,13 @@
           <div class="contact-form-checkbox-wrapper">
             <input
               class="contact-form-checkbox visually-hidden"
-              id="privacy-policy"
+              id="user-privacy"
               type="checkbox"
-              name="privacy-policy"
+              name="user-privacy"
               value="true"
               required
             />
-            <label class="contact-form-checkbox-label" for="privacy-policy">
+            <label class="contact-form-checkbox-label" for="user-privacy">
               <span class="contact-form-own-checkbox">
                 <svg class="contact-own-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkmark"></use>
