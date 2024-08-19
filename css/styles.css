@@ -685,7 +685,12 @@ button {
 
 .contact-form {
 }
+
 .contact-form-wrapper {
+  margin-bottom: 8px;
+}
+
+.comment-form-wrapper {
   margin-bottom: 16px;
 }
 .contact-form-field-label {
