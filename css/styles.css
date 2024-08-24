@@ -180,7 +180,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(./images/hero-image-bg.jpg);
+    url(../images/hero-image-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -668,7 +668,6 @@ button {
 }
 
 .modal-close-btn-icon {
-  padding: 8px;
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
